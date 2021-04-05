@@ -396,13 +396,13 @@ class BasicSynchronousClient(object):
             array = array[:, :, ::-1]
             jik='dataset/IMG-'+str(img_num)+'.png'       
             self.image.save_to_disk(jik)
-            #ImageOps.flip(image.png)
+         
         
             
 
             surface = pygame.surfarray.make_surface(array.swapaxes(0, 1))
             display.blit(surface, (0, 0))
-            #time.sleep(40)
+           
 
     def game_loop(self):
         """
@@ -430,7 +430,7 @@ class BasicSynchronousClient(object):
             img_num = 0
 
           
-            #ww,ll=skimage.draw.circle(0,0,6,shape=None)
+            
             for i in range (4):
 
 
