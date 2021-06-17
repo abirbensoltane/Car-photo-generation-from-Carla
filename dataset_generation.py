@@ -292,7 +292,7 @@ class BasicSynchronousClient(object):
         v=mathutils.Vector((init_x, init_y,1.5))
         
         camera_transform = carla.Transform(carla.Location(v[0],v[1] , v[2]), carla.Rotation(pitch=-180,yaw=deg,roll=180))
-
+        print(camera_transform.get_matrix())
         print("location is ",camera_transform)
         ppt=str(camera_transform)
         pos1 = ppt.find('pitch=')
