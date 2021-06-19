@@ -12,6 +12,6 @@ spawn_point=self.world.get_map().get_spawn_points()[n]
 
 Carla installation (download carla , python (make sure it's x64) and  pip under windows with curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py and then python get-pip.py, 
 to install requiered libs with  pip install -r requirements.txt and then install mathutils with pip install mathutils)
-launch program from cmd  with python dataset.py
+launch program from cmd  with python dataset_generation.py
 this commands are valid for linux 
 
